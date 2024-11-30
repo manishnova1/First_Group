@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="disconnect">Disconnected</string>
+    <string name="lost">Connection Lost</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnecting">Disconnecting</string>
+    <string name="done">Done</string>
+    <string name="failed">Failed</string>
+
+
+    <string name="disconnectColor">R</string>
+    <string name="connectedColor">G</string>
+    <string name="connectingColor">Y</string>
+    <string name="sending_data">Sending Data</string>
+
+    <string name="printer_media_open">Printer Media Open</string>
+    <string name="printer_media_pause">Printer is Paused</string>
+    <string name="printer_media_out">Printer Media Out</string>
+</resources>

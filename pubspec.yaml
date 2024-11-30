@@ -1,0 +1,148 @@
+name: railpaytro
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_typeahead: ^4.0.0
+  flutter_switch: ^0.3.2
+  package_info_plus: ^4.2.0
+  multi_select_flutter: ^4.1.2
+
+  flutter_custom_clippers: ^2.0.0
+  animated_bottom_navigation_bar: ^1.1.0
+  circular_reveal_animation: ^2.0.1
+  auto_size_text: ^3.0.0
+  intl: ^0.18.0
+  sizer: ^2.0.15
+
+  multiselect: ^0.0.7
+  linear_step_indicator: ^1.0.0+3
+
+
+
+
+  json_annotation: ^4.6.0 #model class json
+  flutter_bloc: ^7.1.0  #bloc state management
+  retrofit: ^2.0.1  #api calling
+  injectable: ^1.5.0  #annotation
+  get_it: ^7.2.0  #G file generator
+  flutter_rounded_date_picker: ^3.0.4
+  footer: ^0.0.4
+  dio: ^4.0.0   #Networking
+  shared_preferences: ^2.0.15 #Local pref
+  auto_route: ^3.2.2 #Navigation purpose
+  url_launcher: ^6.0.17 #launch a url
+  image_picker: ^0.8.5 #pick image from local
+  fluttertoast: ^8.1.1 #show toast message
+  ndialog: ^4.1.0 #show dialog
+  animated_custom_dropdown: ^1.2.2
+  awesome_dialog: ^2.1.2 #show dialog
+  #flutter_screenutil: ^5.5.1 #measure screen size
+  flutter_svg: ^0.22.0
+  dropdown_button2: ^1.8.9
+  currency_text_input_formatter: ^2.1.7
+  sqflite: ^2.0.3+1
+  aad_oauth: ^0.4.1
+  path_provider:
+  zebrautility:
+    path: ./zebrautility
+  internet_speed_test:
+    path: ./internet_speed_test
+  pin_code_fields: ^7.4.0
+  syncfusion_flutter_signaturepad: ^20.3.49
+  signature: ^5.0.0
+  permission_handler: ^10.1.0
+  device_info_plus: ^9.1.0
+
+  flutter_html:
+  connectivity_plus: ^2.1.0
+  custom_check_box: ^0.0.4
+  geolocator: ^9.0.2
+  signal_strength_indicator: ^0.4.1
+  liquid_progress_indicator: ^0.4.0
+  change_app_package_name: ^1.1.0
+  camera_camera: ^3.0.0-dev
+  file_picker: ^5.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.4  #run command on terminal
+  json_serializable: ^6.3.1 #json to dart
+  injectable_generator: #generate injectable file
+  auto_route_generator:
+  retrofit_generator: #rest api file gemerator
+  flutter_html:
+  flutter_lints: ^2.0.1
+  photo_view: ^0.14.0
+  percent_indicator: ^4.2.2
+  flutter_blue_plus: ^1.3.1
+  mask_text_input_formatter: ^2.4.0
+  camera_camera: ^3.0.0-dev
+flutter:
+
+  uses-material-design: true
+  assets:
+    - Assets/
+    - Assets/icons/
+    - lib/languages/en.json
+    - lib/languages/hi.json
+
+  fonts:
+    - family: railLight
+      fonts:
+        - asset: Assets/fonts/rail_light.otf
+
+    - family: railBold
+      fonts:
+        - asset: Assets/fonts/rail_bold.otf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # command to create all generated files like, model classes, routers, retrofit classes
+  # ------  flutter pub run build_runner build --delete-conflicting-outputs
+
+  #
+  #    locator<NavigationService>().pushAndRemoveUntil(
+  #    DashboardScreenRoute(isLogin: isUserIn));
+  #
+  #    locator<DialogService>().hideLoader();
+  #    locator<ToastService>().showLong(state.response!.message??"");
+  #
+  #
+  #    locator<DialogService>().hideLoader();
+  #    locator<DialogService>().customError(
+  #    btnOkOnPress: (){},msg: state.errorMessage,context: context);
+  #  --------

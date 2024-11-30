@@ -1,0 +1,148 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'login_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+LoginModel _$LoginModelFromJson(Map<String, dynamic> json) => LoginModel(
+      IS_SSO_LOGIN: json['IS_SSO_LOGIN'] as String?,
+      DEFAULTREVENUEPROTECTIONTEAM:
+          json['DEFAULTREVENUEPROTECTIONTEAM'] as String?,
+      PFN_DISCOUNT_PERCENTAGE: json['PFN_DISCOUNT_PERCENTAGE'],
+      IS_TESTNOTICE: json['IS_TESTNOTICE'] as bool?,
+      INTELLIGENCEREPORTENABLED: json['INTELLIGENCEREPORTENABLED'] as bool?,
+      PFNEWCALCULATIONSTARTDATE: json['PFNEWCALCULATIONSTARTDATE'],
+      PFN_DISCOUNTED_DAYS: json['PFN_DISCOUNTED_DAYS'],
+      PFN_TOTAL_PENALTY: json['PFN_TOTAL_PENALTY'],
+      ISGOGAPPUSER: json['ISGOGAPPUSER'] as bool?,
+      REVPAPPADDITIONALADMINFEEAMOUNT:
+          json['REVPAPPADDITIONALADMINFEEAMOUNT'] as String?,
+      RAILPAYSTATIONTYPE: json['RAILPAYSTATIONTYPE'] as String?,
+      SMARTCARDNUMBERINITIAL: json['SMARTCARDNUMBERINITIAL'] as String?,
+      PTTLABELLONG: json['PTTLABELLONG'] as String?,
+      GOGAUTOCLOSESESSIONTIMEOUT: json['GOGAUTOCLOSESESSIONTIMEOUT'] as String?,
+      IS_ISSUEHISTORY_ISSUER: json['IS_ISSUEHISTORY_ISSUER'] as bool?,
+      IS_UNPAID_FARE_ISSUER: json['IS_UNPAID_FARE_ISSUER'] as bool?,
+      IS_CAR_PARKING_PENALTY_ISSUER:
+          json['IS_CAR_PARKING_PENALTY_ISSUER'] as bool?,
+      STATUS: json['STATUS'] as num?,
+      ISPTTAPPSCANNER: json['ISPTTAPPSCANNER'] as bool?,
+      ISIRISSUER: json['ISIRISSUER'] as bool?,
+      TOCID: json['TOCID'] as String?,
+      REVPPAYMENTDEADLINEDATE: json['REVPPAYMENTDEADLINEDATE'] as String?,
+      STUSER: json['STUSER'] == null
+          ? null
+          : STUSERBean.fromJson(json['STUSER'] as Map<String, dynamic>),
+      SMARTCARDFIELDAPP: json['SMARTCARDFIELDAPP'] as String?,
+      ISREVPENABLED: json['ISREVPENABLED'] as bool?,
+      ISGOGENABLED: json['ISGOGENABLED'] as bool?,
+      ISPTTENABLED: json['ISPTTENABLED'] as bool?,
+      ISREVPOFFENDERDESCRIPTIONCAPTURE:
+          json['ISREVPOFFENDERDESCRIPTIONCAPTURE'] as bool?,
+      REVPZEROFARETICKETENABLED: json['REVPZEROFARETICKETENABLED'] as String?,
+      TOCPRIVACYPOLICYLINK: json['TOCPRIVACYPOLICYLINK'] as String?,
+      IS_PENALTY_FARE_ISSUER: json['IS_PENALTY_FARE_ISSUER'] as bool?,
+      IS_MG11: json['IS_MG11'] as bool?,
+      IS_REVP_MASTER: json['IS_REVP_MASTER'] as bool?,
+      PKEY: json['PKEY'] as String?,
+      STCONFIG: json['STCONFIG'] == null
+          ? null
+          : STCONFIGBean.fromJson(json['STCONFIG'] as Map<String, dynamic>),
+      IS_UNPAID_FARE_ISSUERHT: json['IS_UNPAID_FARE_ISSUERHT'] as bool?,
+      REVPAPPLANGUAGEENABLED: json['REVPAPPLANGUAGEENABLED'] as String?,
+      IS_COUNTER_PASSENGER_USER: json['IS_COUNTER_PASSENGER_USER'] as bool?,
+      PTTADVANCEDDAYS: json['PTTADVANCEDDAYS'] as String?,
+      PTTLABELSHORT: json['PTTLABELSHORT'] as String?,
+      ISPTTAPPISSUER: json['ISPTTAPPISSUER'] as bool?,
+      REQUIREDFIELDSERROR: json['REQUIREDFIELDSERROR'],
+    );
+
+Map<String, dynamic> _$LoginModelToJson(LoginModel instance) =>
+    <String, dynamic>{
+      'ISGOGAPPUSER': instance.ISGOGAPPUSER,
+      'IS_SSO_LOGIN': instance.IS_SSO_LOGIN,
+      'DEFAULTREVENUEPROTECTIONTEAM': instance.DEFAULTREVENUEPROTECTIONTEAM,
+      'REVPAPPADDITIONALADMINFEEAMOUNT':
+          instance.REVPAPPADDITIONALADMINFEEAMOUNT,
+      'IS_TESTNOTICE': instance.IS_TESTNOTICE,
+      'RAILPAYSTATIONTYPE': instance.RAILPAYSTATIONTYPE,
+      'SMARTCARDNUMBERINITIAL': instance.SMARTCARDNUMBERINITIAL,
+      'PTTLABELLONG': instance.PTTLABELLONG,
+      'GOGAUTOCLOSESESSIONTIMEOUT': instance.GOGAUTOCLOSESESSIONTIMEOUT,
+      'IS_ISSUEHISTORY_ISSUER': instance.IS_ISSUEHISTORY_ISSUER,
+      'IS_UNPAID_FARE_ISSUER': instance.IS_UNPAID_FARE_ISSUER,
+      'IS_CAR_PARKING_PENALTY_ISSUER': instance.IS_CAR_PARKING_PENALTY_ISSUER,
+      'STATUS': instance.STATUS,
+      'ISPTTAPPSCANNER': instance.ISPTTAPPSCANNER,
+      'ISIRISSUER': instance.ISIRISSUER,
+      'TOCID': instance.TOCID,
+      'INTELLIGENCEREPORTENABLED': instance.INTELLIGENCEREPORTENABLED,
+      'REVPPAYMENTDEADLINEDATE': instance.REVPPAYMENTDEADLINEDATE,
+      'STUSER': instance.STUSER,
+      'SMARTCARDFIELDAPP': instance.SMARTCARDFIELDAPP,
+      'ISREVPENABLED': instance.ISREVPENABLED,
+      'ISGOGENABLED': instance.ISGOGENABLED,
+      'ISPTTENABLED': instance.ISPTTENABLED,
+      'ISREVPOFFENDERDESCRIPTIONCAPTURE':
+          instance.ISREVPOFFENDERDESCRIPTIONCAPTURE,
+      'REVPZEROFARETICKETENABLED': instance.REVPZEROFARETICKETENABLED,
+      'TOCPRIVACYPOLICYLINK': instance.TOCPRIVACYPOLICYLINK,
+      'IS_PENALTY_FARE_ISSUER': instance.IS_PENALTY_FARE_ISSUER,
+      'IS_MG11': instance.IS_MG11,
+      'IS_REVP_MASTER': instance.IS_REVP_MASTER,
+      'PKEY': instance.PKEY,
+      'STCONFIG': instance.STCONFIG,
+      'IS_UNPAID_FARE_ISSUERHT': instance.IS_UNPAID_FARE_ISSUERHT,
+      'REVPAPPLANGUAGEENABLED': instance.REVPAPPLANGUAGEENABLED,
+      'IS_COUNTER_PASSENGER_USER': instance.IS_COUNTER_PASSENGER_USER,
+      'PTTADVANCEDDAYS': instance.PTTADVANCEDDAYS,
+      'PTTLABELSHORT': instance.PTTLABELSHORT,
+      'ISPTTAPPISSUER': instance.ISPTTAPPISSUER,
+      'REQUIREDFIELDSERROR': instance.REQUIREDFIELDSERROR,
+      'PFNEWCALCULATIONSTARTDATE': instance.PFNEWCALCULATIONSTARTDATE,
+      'PFN_DISCOUNTED_DAYS': instance.PFN_DISCOUNTED_DAYS,
+      'PFN_DISCOUNT_PERCENTAGE': instance.PFN_DISCOUNT_PERCENTAGE,
+      'PFN_TOTAL_PENALTY': instance.PFN_TOTAL_PENALTY,
+    };
+
+STCONFIGBean _$STCONFIGBeanFromJson(Map<String, dynamic> json) => STCONFIGBean(
+      SAPPSESSIONID: json['SAPPSESSIONID'] as String?,
+      SAPIURL: json['SAPIURL'] as String?,
+    );
+
+Map<String, dynamic> _$STCONFIGBeanToJson(STCONFIGBean instance) =>
+    <String, dynamic>{
+      'SAPPSESSIONID': instance.SAPPSESSIONID,
+      'SAPIURL': instance.SAPIURL,
+    };
+
+STUSERBean _$STUSERBeanFromJson(Map<String, dynamic> json) => STUSERBean(
+      REMAININGLIMIT: json['REMAININGLIMIT'] as num?,
+      DAYLEFTFORCHANGEPASSWORD: json['DAYLEFTFORCHANGEPASSWORD'] as num?,
+      SINGLETRANSACTIONLIMIT: json['SINGLETRANSACTIONLIMIT'] as num?,
+      MACADRESS: json['MACADRESS'] as String?,
+      SFORENAME: json['SFORENAME'] as String?,
+      PASSWORDCHANGEFREQUENCY: json['PASSWORDCHANGEFREQUENCY'] as num?,
+      ID: json['ID'] as String?,
+      SEMAILADDRESS: json['SEMAILADDRESS'] as String?,
+      DAILYTRANSACTIONLIMIT: json['DAILYTRANSACTIONLIMIT'] as num?,
+      SUSERNAME: json['SUSERNAME'] as String?,
+      SSURNAME: json['SSURNAME'] as String?,
+    );
+
+Map<String, dynamic> _$STUSERBeanToJson(STUSERBean instance) =>
+    <String, dynamic>{
+      'REMAININGLIMIT': instance.REMAININGLIMIT,
+      'DAYLEFTFORCHANGEPASSWORD': instance.DAYLEFTFORCHANGEPASSWORD,
+      'SINGLETRANSACTIONLIMIT': instance.SINGLETRANSACTIONLIMIT,
+      'MACADRESS': instance.MACADRESS,
+      'SFORENAME': instance.SFORENAME,
+      'PASSWORDCHANGEFREQUENCY': instance.PASSWORDCHANGEFREQUENCY,
+      'ID': instance.ID,
+      'SEMAILADDRESS': instance.SEMAILADDRESS,
+      'DAILYTRANSACTIONLIMIT': instance.DAILYTRANSACTIONLIMIT,
+      'SUSERNAME': instance.SUSERNAME,
+      'SSURNAME': instance.SSURNAME,
+    };
