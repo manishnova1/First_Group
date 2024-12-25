@@ -4,7 +4,7 @@ part 'login_model.g.dart';
 
 @JsonSerializable()
 class LoginModel {
-  bool? ISGOGAPPUSER;
+  String? ISGOGAPPUSER;
   String? IS_SSO_LOGIN;
   String? DEFAULTREVENUEPROTECTIONTEAM;
   String? REVPAPPADDITIONALADMINFEEAMOUNT;

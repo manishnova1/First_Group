@@ -62,7 +62,7 @@ class AppConfig {
 //live// https://revp-api.delayrepaycompensation.com/tcs/railpayapi
 
   static const mainUrl =
-      'https://revp-api.delayrepaycompensation.com/tcs/railpayapi';
+      'https://prelive-lucee-api.delayrepaycompensation.com/tcs/api';
   static const endPoint = '/www/index.cfm';
 
   //Production
