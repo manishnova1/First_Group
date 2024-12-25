@@ -226,7 +226,7 @@ class _IssuingHistoryMainState extends State<IssuingHistoryMain> {
                                                                       8.5.sp),
                                                                 ))),
                                                       )
-                                                          : history!.cLOSUREREASONDESC
+                                                          : history!.sTATUSDESC
                                                           .toString() ==
                                                           'Closed with no money outstanding'
                                                           ? SizedBox(
@@ -243,7 +243,7 @@ class _IssuingHistoryMainState extends State<IssuingHistoryMain> {
                                                                   },
                                                                   child:
                                                                   Text(
-                                                                    history!.cLOSUREREASONDESC
+                                                                    history!.sTATUSDESC
                                                                         .toString(),
                                                                     style: TextStyle(
                                                                         color: Colors.black,
@@ -259,7 +259,7 @@ class _IssuingHistoryMainState extends State<IssuingHistoryMain> {
                                                               onPressed:
                                                                   () async {},
                                                               child: Text(
-                                                                history!.cLOSUREREASONDESC
+                                                                history!.sTATUSDESC
                                                                     .toString(),
                                                                 style: TextStyle(
                                                                     color: Colors
